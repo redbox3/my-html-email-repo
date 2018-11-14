@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple page layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+
+<style>
+    /* Resets */
+    html, body, div, p, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size:10px;
+	line-height:10px;
+}
+    /* Default Typography */
+    h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+    /* Container Sized Block Images */
+    img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+}
+    /* Colours */
+    body {
+	background-color: #F4F4F4;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+	color: #58585A;
+}
+
+.bg-brown {
+	background-color: #F8F7F0;
+	color: #58585A;
+}
+
+.bg-gray {
+	background-color: #58585A;
+	color: #FFFFFF;
+}
+
+    /* Custom css */
+    .container600 {
+	width: 640px;
+	margin: 0 auto;
+}
+</style>
+</head>
+<body>
+    <div class="container600">
+	<div id="pre-header">
+		<p>
+			Pre-header
+		</p>
+	</div>
+	<div id="header" class="bg-white">
+		<p>
+			Header
+		</p>
+	</div>
+	<div id="content" class="bg-brown">
+		<p>
+			Content
+		</p>
+	</div>
+	<div id="footer" class="bg-gray">
+		<p>
+			Footer
+		</p>
+	</div>
+</div>
+</body>
+</html>
